@@ -62,16 +62,19 @@ function countTypeElements() {
         }
     });
 
-    console.log("Чётных: " + sumEven);
-    console.log("Нечётных: " + sumOdd);
-    console.log("Ноль: " + sumZero);
-    console.log("Null: " + sumNull);
-    console.log("Undefined: " + sumUndefined);
-    console.log("Boolean: " + sumBoolean);
-    console.log("String: " + sumString);
-    console.log("Symbol: " + sumSymbol);
-    console.log("Object: " + sumObject);
-    console.log("BigInt: " + sumBigInt);
+    console.log(
+        "Чётных: " + sumEven + "\n" +
+        "Нечётных: " + sumOdd + "\n" +
+        "Ноль: " + sumZero + "\n" +
+        "Null: " + sumNull + "\n" +
+        "Undefined: " + sumUndefined + "\n" +
+        "Boolean: " + sumBoolean + "\n" +
+        "String: " + sumString + "\n" +
+        "Symbol: " + sumSymbol + "\n" +
+        "Object: " + sumObject + "\n" +
+        "BigInt: " + sumBigInt + "\n" +
+        "All Elements in arr: " + myArr.length
+    );
 }
 
 countTypeElements();
